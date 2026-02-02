@@ -94,3 +94,14 @@
     border: 1px solid rgba(175, 47, 47, 0.1);
     border-radius: 3px;
 }
+.todo-clear-btn {
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.todo-clear-btn:hover {
+    text-decoration: underline;
+}
