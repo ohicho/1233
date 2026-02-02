@@ -65,3 +65,38 @@ div {
     text-decoration: line-through;
     transition: color 0.4s; 
 }
+.footer {
+    display: flex;
+    justify-content: space-between; /* Розставляє елементи по боках */
+    align-items: center;
+    padding: 10px 15px;
+    border-top: 1px solid #ededed;
+    color: #777;
+    font-size: 14px;
+}
+
+.filters button {
+    background: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: inherit;
+    margin: 0 2px;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+
+/* Рамка для активної кнопки */
+.filters button:first-child {
+    border-color: rgba(175, 47, 47, 0.2);
+}
+
+.clear {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.clear:hover {
+    text-decoration: underline;
+}
