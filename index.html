@@ -5,26 +5,31 @@
     <title>passat</title>
     <link rel="stylesheet" href="style.css"> 
   </head>
-  <body>
+  <body class="todo-page">
     
-    <h1>passat</h1>
+    <h1 class="todo-main-title">passat</h1>
     
-    <div class="todoapp">
-      <input class="new-todo" type="text" placeholder="Пассат норм чи стрьом?">
-    
-      <ul class="todo-list">
-        <li>
-          <input type="radio" name="choose" id="opt1" class="toggle">
-          <label for="opt1"> норм </label>
+    <div class="todo-app-cointainer">
+      <header class="todo-header"> 
+       <input class="todo-new-input" type="text" placeholder="coll or not">
+      </header>
+
+      <section class="todo-main-section"
+      <ul class="todo-items-list">
+        <li class="todo-item">
+          <input type="radio" name="choose" id="opt1" class="todo-toggle-radio">
+          <label for="opt1" class="todo-item-label"> cool </label>
         </li>
         <li>
-          <input type="radio" name="choose" id="opt2" class="toggle">
-          <label for="opt2"> стрьом </label>
+          <input type="radio" name="choose" id="opt2" class="todo-toggle-radio">
+          <label for="opt2" class="todo-item-label"> bad </label>
         </li>      
       </ul>
-      <div class="footer">
-        <span> не має правильної відповіді</span>
-        <div class="filters">
+      </section> 
+      
+      <footer class="todo-footer-panel">
+        <span class="todo-count"> does not have a correct answer</span>
+        <div class="todo-filters">
           <button>all</button>
           <button>active</button>
           <button>completed</button>
